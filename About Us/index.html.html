@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>About Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #9e0e6cd7;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #9e0e6c6b;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #9e0e6cd7;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+h3{
+    font-size: 1.35em;
+    color: #830858;
+}
+h1{
+    font-size: 1.35em;
+    color: #830858;
+}
+p{
+    color: #830858;
+}
+h2{
+    font-family: consolas;
+    transition: .2s;
+}
+h2:hover {
+    color: #255784;
+    background: #2186f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 30px #2196f3, 0 0 60px #2196f3;
+    transition-delay: 1s;
+}
+ul:hover{
+    color: #255784;
+    background: #2186f3;
+    box-shadow: 0 0 3px #2196f3, 0 0 10px #2196f3, 0 0 20px #2196f3;
+    transition-delay: 1s;
+}
+@media screen and (max-width: 900px) and (min-width: 600px), (min-width: 1100px) {
+    ::selection{
+      float: none;
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h2>MORE ABOUT US</h2>
+</header>
+
+<section>
+  <nav>
+    <h3>Previous pages</h3>
+    <ul>
+      <li><a href="file:///C:/Users/Administrator/Desktop/RAZVOJ%20WEB%20APLIKACIJA/pomo%C4%87ni%20folder%20za%20drugi%20doma%C4%87i-Home/pomo%C4%87ni1.html">Home</a></li>
+      <li><a href="file:///C:/Users/Administrator/Desktop/RAZVOJ%20WEB%20APLIKACIJA/custom/customhtml.html">Custom</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Jolanda</h1>
+    <div class="p">
+        <p>Jolanda, born in 1982 in Belgrade, where she lives and works.</p>
+        <p>She completed photography school at the Association of Professional Photographers of Yugoslavia</p>
+        <p>She also completed basic and master's studies in art history at the Faculty of Philosophy, University of Belgrade.</p>
+        <p>He has been engaged in professional photography since 2008.</p>
+        <p>She had her first solo exhibition "Self-Mirror" in March 2011 at Teatar 78 gallery in Belgrade.</p>
+        <p>For more information, you can contact us by email at www.jolanda.com</p>
+    </div>
+ 
+  </article>
+</section>
+
+<footer>
+  
+</footer>
+
+</body>
+</html>
+
